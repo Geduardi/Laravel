@@ -2,11 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15ce0f3e-4c51-4389-b15a-f760716568d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/about.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/menu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/IndexController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/News/NewsCategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/News/NewsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/News.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/NewsCategory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/test1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/test2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/news/menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/news/news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/news/newsCategory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/news/newsOne.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/news/newsOneCategory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ДЗ_1.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/news.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,17 +146,32 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1fyZKHbnpojj47WzzKwSygOofLw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/news" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Laravel.SettingsForm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\laravel.local\resources\views\news" />
+      <recent name="D:\OpenServer\domains\laravel.local\app\Http\Controllers\News" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\laravel.local\resources\views\news" />
+      <recent name="D:\OpenServer\domains\laravel.local\app" />
+      <recent name="D:\OpenServer\domains\laravel.local\resources\views" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -165,7 +196,14 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="824" y="160" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1597202213440">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="824" y="160" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1597202213440" />
     <state x="749" y="419" key="NewPhpFileDialog" timestamp="1597195696642">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
