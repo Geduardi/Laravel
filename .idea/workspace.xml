@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15ce0f3e-4c51-4389-b15a-f760716568d9" name="Default Changelist" comment="" />
+    <list default="true" id="15ce0f3e-4c51-4389-b15a-f760716568d9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/resources/views/about.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/menu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/news.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597192237173</updated>
-      <workItem from="1597192275230" duration="2431000" />
+      <workItem from="1597192275230" duration="3746000" />
     </task>
     <servers />
   </component>
@@ -159,10 +165,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="749" y="419" key="NewPhpFileDialog" timestamp="1597195204902">
+    <state x="749" y="419" key="NewPhpFileDialog" timestamp="1597195696642">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="749" y="419" key="NewPhpFileDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1597195204902" />
+    <state x="749" y="419" key="NewPhpFileDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1597195696642" />
     <state x="344" y="56" key="SettingsEditor" timestamp="1597192442546">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
