@@ -2,11 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Laravel</title>
+    <title>Document</title>
 </head>
 <body>
-
 <?php include "menu.php" ?>
-Добро пожаловать!
+О нас
 </body>
 </html>
