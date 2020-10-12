@@ -14,7 +14,7 @@ class NewsCategoryController extends Controller
         return view('news.newsCategory')->with('newsCategory', NewsCategory::getNewsCategory());
     }
 
-    public function show($id) {
-        return view('news.newsOneCategory')->with('news', NewsCategory::getNewsCategoryId($id));
+    public function show($slug) {
+        return view('news.newsOneCategory')->with('news', NewsCategory::getNewsCategoryBySlug($slug));
     }
 }

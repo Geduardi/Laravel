@@ -36,9 +36,10 @@ Route::group([
     'namespace'=>'News',
     'as'=>'news.'
 ],function (){
+    Route::get('/category', 'NewsCategoryController@index')->name('NewsCategory');
+    Route::get('/category/{slug}', 'NewsCategoryController@show')->name('NewsOneCategory');
     Route::get('/', 'NewsController@index')->name('News');
     Route::get('/{id}', 'NewsController@show')->name('NewsOne');
-    Route::get('/category', 'NewsCategoryController@index')->name('NewsCategory');
-    Route::get('/category/{id}', 'NewsCategoryController@show')->name('NewsOneCategory');
+
 });
 
